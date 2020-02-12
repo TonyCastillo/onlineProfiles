@@ -1,0 +1,30 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+$primaryFont: 'Montserrat', sans-serif;
+
+
+
+$primary-color: #4476EB;
+$secondary-color: #5A85EB;
+$white: #fff;
+$black: #222222;
+
+$gradient-background: linear-gradient(225deg, #618EF8 0%, #071E55 100%);
+
+$shadow: 0px 10px 35px -5px rgba(0,0,0,0.2);
+
+
+p{
+    font-size: 1rem;
+    font-family: $primaryFont;
+    color: $black;
+    font-weight: 400;
+}
+a,h1,h2,h3,h4{
+    font-family: $primaryFont;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: none;
+}
